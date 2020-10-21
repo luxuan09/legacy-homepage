@@ -1,0 +1,22 @@
+body {
+    padding-top: 50px;
+}
+
+body, h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Palatino', 'Droid Sans', sans-serif, "Hiragino Sans GB", "Hiragino Sans GB W3", "SimHei", "Microsoft YaHei", "WenQuanYi Micro Hei";
+}
+
+a {
+    color: #f0ad4e;
+}
+
+
+/* Solutions for mobile and small screens  */
+@media (max-width: 650px) {
+    #banner h1{
+       font-size: 30px; /* !important;*/
+    }
+    #banner .intro{
+        font-size: 16px;
+    }
+}
